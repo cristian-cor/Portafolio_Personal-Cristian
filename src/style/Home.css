@@ -1,0 +1,71 @@
+.home__content{
+    background-image: url('../images/ales-nesetril-Im7lZjxeLhg-unsplash.jpg');
+    background-position: 90%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    background-color: #191919;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    padding: 10px;
+}
+.nav_container-menu{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.nav_container-menu:hover{
+    transform: translateY(2px);
+}
+.home__text{
+    display: grid;
+    place-items: center;
+    font-size: 30px;
+    font-weight: 900;
+    padding: 10px;
+}
+.home__text{
+    background-image: linear-gradient(90deg,#000,#fefefe);
+    background-size: 85% 100%;
+    background-repeat: no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-transform: uppercase;
+    animation: shine 9s linear infinite;
+    -webkit-animation: shine 9s linear infinite;
+}
+.section{
+    margin-top: 100px;
+}
+
+@keyframes shine {
+    from{
+        background-position: -500% 0
+    }
+    to{
+        background-position: 500% 0%;
+    }
+}
+@media (max-width: 849px) {
+    .home__content{
+        background-image: url('../images/ales-nesetril-Im7lZjxeLhg-unsplash.jpg');
+        background-position: 45%;
+        height: 100vh;
+        background-size: cover;
+    }
+    
+    .nav_container-menu ul{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        align-items: center;
+    }
+    }

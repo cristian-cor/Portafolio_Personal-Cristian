@@ -1,24 +1,34 @@
-import logo from './logo.svg';
 import './App.css';
+import About from './components/About';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import Home from './components/Home';
+import Portfolio from './components/Portfolio';
+import Service from './components/Service';
+
+import { useEffect, useState } from 'react';
 
 function App() {
+  const [scrollHeight, setScrollHeight] = useState(0);
+
+  const handleScroll = () => {
+    const position = window.pageYOffset;
+    setScrollHeight(position);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+  }, [scrollHeight]);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Home isScrolling={scrollHeight} />
+      <About/>
+      <Service/>
+      <Portfolio/>
+      <Contact/>
+      <Footer/>
+    
+    </>
   );
 }
 

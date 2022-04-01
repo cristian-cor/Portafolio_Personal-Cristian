@@ -1,0 +1,70 @@
+.section_about{
+width: 100%;
+display: flex;
+flex-direction: row;
+padding: 70px;
+background-color: #191919;
+color: #9A9DA8;
+}
+.section_container-img img{
+width: 480px;
+height: 600px;
+border-radius: 6px;
+}
+.section_about-info h2{
+font-size: 45px;
+font-weight: bold;
+border-radius: 6px;
+}
+.section_about-buttom{
+    margin: 0 auto;
+    display: flex;
+}
+.section_about-buttom .button_CV{
+width: 150px;
+height: 50px;
+border-radius: 10px;
+border: none;
+margin: 10px;
+background-color: #F9004D;
+color: white;
+font-weight: bold;
+margin: 30px;
+display: grid;
+place-items: center;
+}
+.section_about-buttom .button_CV:hover{
+    background-color: white;
+    border: 1px solid #F9004D;
+    color: black;
+    font-weight: bold;
+    transition: 1.2s ;
+}
+.section_about-aboutMe{
+    margin: 30px;
+}
+@media (max-width: 960px) {
+
+.section_container-img img{
+width: 380px;
+height: 500px;
+border-radius: 6px; ;
+}
+}
+@media (max-width: 867px) {
+
+.section_container-img img{
+width: 330px;
+height: 460px;
+border-radius: 6px; ;
+}
+.section_about{
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 70px;
+background-color: #191919;
+color: #9A9DA8;
+}
+}
