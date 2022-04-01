@@ -7,7 +7,7 @@ const Footer = () => {
 
         <footer className="footer">
             <div className="footer-sns">
-                <h2 className="design-by">Designed by  Cristian Correa</h2>
+                <h2 className="design-by">Designed by Cristian Correa</h2>
             </div>
         </footer>
 

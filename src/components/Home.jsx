@@ -19,7 +19,7 @@ const Home = ({ isScrolling }) => {
             <section className='section'>
                 <div className="home__content">
                     <div className="home__meta">
-                        <h2 className="home__text pz__10">WELCOME TO MY WORLD, <br /> Hi, I’m Cristian Correa<br />Junior Developer.</h2>
+                        <h2 className="home__text pz__10">BIENVENIDOS A MI MUNDO, <br /> Hola, soy Cristian Correa<br />Desarrollador junior.</h2>
                     </div>
                 </div>
             </section>

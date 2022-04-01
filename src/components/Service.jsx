@@ -8,7 +8,7 @@ const Service = () => {
             <section>
                 <div className='section_service-title'>
                     <h2 className='text-center service-title mt-5'>
-                        Mi formación academia
+                        Formación academia
                     </h2>
                 </div>
                 <section className='section_container-card1'>
@@ -35,7 +35,8 @@ const Service = () => {
                                     <li>Crecimiento profesional.</li>
                                 </ul>
                                 <p className='card-info'>
-                                Mi enfoque siempre ha sido el DESARROLLO e INGENIERIA, y cuento con mas de 23 certificados en el área de Desarrollo web y software así mismo, con mas de 750 horas de estudio.                                </p>
+                                Mi enfoque siempre ha sido el DESARROLLO e INGENIERIA, y cuento con mas de 23 certificados en el área de Desarrollo web y software, así mismo con mas de 750 horas de estudio.
+                               </p>
                             </div>
                         </div>
                     </div>
@@ -59,9 +60,9 @@ const Service = () => {
                                     Digital House ofrece formación 100% remota en programación, experiencia del usuario, datos y marketing digital a través de cursos intensivos, capacitaciones a empresas y programas con escuelas.</p>
                                 <br />
                                 <p className='card-info'>
-                                    En esta academia me encuentro cursando el progrma de Desarrollador Web Full Stak, la cual tiene una duración de 6,5 meses donde estaremos estudiano de manera intemsiva HTML, CSS, JAVASCRIPT, REACT.JS y NODE.JS.
+                                    En esta academia me encuentro cursando el progrma de Desarrollador Web Full Stak, la cual tiene una duración de 6,5 meses donde estaré estudiano de manera intemsiva HTML, CSS, JAVASCRIPT, REACT.JS y NODE.JS.
                                     <br />
-                                    Con el objetivo de que salgamos con los conocimientos necesario para enfrentarnos en el mundo laboral
+                                    Con el objetivo de que salga con los conocimientos necesario para enfrentarme en el mundo laboral
                                 </p>
                             </div>
                         </div>
@@ -78,18 +79,17 @@ const Service = () => {
                             <div className="container__card">
                                 <h1 className="service__text CUC">Universidad de la Costa</h1>
                                 <p className='card-info'>
-                                    Me gusta todo lo relacionado con las nuevas tecnologías y el nuevo ámbito que voy a llevar en mi vida.
-                                    <br />
-                                    Escogí ingeniería de sistemas por bastantes factores que me convencieron:
-                                    otra razón es de tipo familiar ya que mi amigo y mi tío estudiaron la misma carrera y se les ve un futuro seguro tanto económico, social y familiar como académico
-                                </p>
+                                    Me gusta todo lo relacionado con las nuevas tecnologías.
+                                </p >
+                                <br/>
+                                <p className='card-info'>  Escogí ingeniería de sistemas por bastantes factores que me convencieron:</p>
                                 <br />
                                 <ul >
                                     <li>
                                         Decidí estudiar ingeniería de sistemas porque no solo me llama la atención la tecnología si no también me llama la atención la forma como la tecnología facilita problemas que se nos presentan a diario.
                                     </li>
                                     <li>
-                                        la segunda razón por la que escogí estudiar ingeniería de sistemas es por la alta tasa de empleo que se presenta para esta carrera.
+                                        La segunda razón por la que escogí estudiar ingeniería de sistemas es por la alta tasa de empleo que se presenta para esta carrera.
                                     </li>
                                     <li>
                                         Por ultimo, pero no menos importante, es de tipo social ya que mi amigo y conocidos estudiaron la misma carrera y se les ve un futuro seguro tanto económico, social y familiar como académico.

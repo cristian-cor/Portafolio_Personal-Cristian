@@ -9,11 +9,10 @@ const Portfolio = () => {
     <section className='section_portfolio'>
       <div className='section_portfolio-title'>
         <h2 className='text-center service-title mt-5'>
-          My Latest Project
+        Mis proyectos
         </h2>
         <p className='text-center service-subtitle m-3'>
-          There are many variations of passages of Lorem Ipsum available,<br />
-          but the majority have suffered alteration.
+         Aqui podras ver algunos de mis proyectos realizados a lo largo de mi aprendizaje
         </p>
       </div>
       <section className='portfolio_container-card1'>

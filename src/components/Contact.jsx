@@ -6,7 +6,7 @@ const Contact = () => {
     return (
         <div className='section_contact'>
             <div className='section_contact-title text-center'>
-                <h2> Contacta me</h2>
+                <h2> Contáctame</h2>
                 <p>Y pongámonos manos a la obra </p>
             </div>
             <div className="sns-links">
