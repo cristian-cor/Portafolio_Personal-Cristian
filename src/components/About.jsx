@@ -1,5 +1,4 @@
 import React from 'react'
-//images
 //stiles
 import '../style/About.css'
 const About = () => {

@@ -1,22 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.39fd6978.css",
-    "main.js": "/static/js/main.090de05c.js",
+    "main.css": "/static/css/main.92218299.css",
+    "main.js": "/static/js/main.678f2e4f.js",
     "static/js/787.ae0d8d37.chunk.js": "/static/js/787.ae0d8d37.chunk.js",
-    "static/media/user.jpg": "/static/media/user.6f186b1a59b12f39d023.jpg",
     "static/media/ales-nesetril-Im7lZjxeLhg-unsplash.jpg": "/static/media/ales-nesetril-Im7lZjxeLhg-unsplash.6b9eec57704d70c5f051.jpg",
-    "static/media/clonGoogle.jpg": "/static/media/clonGoogle.537000025db3f3dddbb7.jpg",
-    "static/media/colorPicekt.jpg": "/static/media/colorPicekt.6f92b75943e0560559a0.jpg",
-    "static/media/todoApp.jpg": "/static/media/todoApp.59e0fe11234edf335348.jpg",
-    "static/media/rickAndMorty.jpg": "/static/media/rickAndMorty.49202e01beed0682aac3.jpg",
-    "static/media/proximamente.jpg": "/static/media/proximamente.f7a75b0fd4e74636628a.jpg",
     "index.html": "/index.html",
-    "main.39fd6978.css.map": "/static/css/main.39fd6978.css.map",
-    "main.090de05c.js.map": "/static/js/main.090de05c.js.map",
+    "main.92218299.css.map": "/static/css/main.92218299.css.map",
+    "main.678f2e4f.js.map": "/static/js/main.678f2e4f.js.map",
     "787.ae0d8d37.chunk.js.map": "/static/js/787.ae0d8d37.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.39fd6978.css",
-    "static/js/main.090de05c.js"
+    "static/css/main.92218299.css",
+    "static/js/main.678f2e4f.js"
   ]
 }
