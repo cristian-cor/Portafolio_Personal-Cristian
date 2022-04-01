@@ -1,5 +1,5 @@
 .home__content{
-    background-image: url('../images/ales-nesetril-Im7lZjxeLhg-unsplash.jpg');
+    background-image: url('https://i.ibb.co/PCXkWXf/ales-nesetril-Im7l-Zjxe-Lhg-unsplash.jpg');
     background-position: 90%;
     height: 100vh;
     background-size: cover;
@@ -51,10 +51,18 @@
         background-position: -500% 0
     }
     to{
-        background-position: 500% 0%;
+        background-position:400% 0%;
     }
 }
 @media (max-width: 849px) {
+    @keyframes shine {
+        from{
+            background-position: -500% 0
+        }
+        to{
+            background-position:400% 0%;
+        }
+    }
     .home__content{
         background-image: url('../images/ales-nesetril-Im7lZjxeLhg-unsplash.jpg');
         background-position: 45%;

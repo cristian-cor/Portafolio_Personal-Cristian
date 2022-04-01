@@ -1,6 +1,5 @@
 import React from 'react'
 //images
-import cardUser from '../images/user.jpg'
 //stiles
 import '../style/About.css'
 const About = () => {
@@ -9,7 +8,7 @@ const About = () => {
             <div className='section_about'>
                 <section className=''>
                     <figure className='section_container-img'>
-                        <img src={cardUser} alt='card' />
+                        <img src='https://i.ibb.co/MsWZNXk/user.jpg' alt='card' />
                     </figure>
                 </section>
                 <div className='section_about-info'>
@@ -31,14 +30,6 @@ const About = () => {
                         <p>
                             Dentro de mis objetivos, se encuentra el mejorar cada día en todos los aspectos de mi vida, para ser un ejemplo que impacte a mi familia como núcleo inicial y que ello se expanda a la sociedad, sirviendo de inspiración para aquellos que alguna vez estuvieron enfocados y han perdido su camino.
                         </p>
-                    </div>
-                    <div className='section_about-buttom'>
-                        <a
-                            target="blank"
-                            href='https://www.dropbox.com/s/byatwci131czeq0/Copia%20de%20Moderno%20Profesional%20Hoja%20de%20Vida%20%282%29.pdf?dl=0'
-                            className='button_CV'>
-                            Download Cv
-                        </a>
                     </div>
                 </div>
             </div>

@@ -1,10 +1,6 @@
 import React from 'react'
 //images
-import rick from '../images/rickAndMorty.jpg'
-import clonGoogle from '../images/clonGoogle.jpg'
-import colorPicekt from '../images/colorPicekt.jpg'
-import proximamente from '../images/proximamente.jpg'
-import todoApp from '../images/todoApp.jpg'
+
 
 //styles
 import '../style/Portfolio.css'
@@ -25,7 +21,7 @@ const Portfolio = () => {
           <div className='container_card'>
             <div className='container_img'>
               <figure>
-                <img src={rick} alt='projects' />
+                <img src='https://i.ibb.co/kDQCHXC/rick-And-Morty.jpg' alt='projects' />
               </figure>
             </div>
             <div className='container_info'>
@@ -37,7 +33,7 @@ const Portfolio = () => {
           <div className='container_card'>
             <div className='container_img'>
               <figure>
-                <img src={clonGoogle} alt='projects' />
+                <img src='https://i.ibb.co/Wp9WVLZ/clon-Google.jpg' alt='projects' />
               </figure>
             </div>
             <div className='container_info'>
@@ -49,7 +45,7 @@ const Portfolio = () => {
           <div className='container_card'>
             <div className='container_img'>
               <figure>
-                <img src={colorPicekt} alt='projects' />
+                <img src='https://i.ibb.co/jrtbWqJ/color-Picekt.jpg' alt='projects' />
               </figure>
             </div>
             <div className='container_info'>
@@ -61,7 +57,7 @@ const Portfolio = () => {
           <div className='container_card'>
             <div className='container_img'>
               <figure>
-                <img src={todoApp} alt='projects' />
+                <img src='https://i.ibb.co/0nJP2dj/todoApp.jpg' alt='projects' />
               </figure>
             </div>
             <div className='container_info'>
@@ -73,7 +69,7 @@ const Portfolio = () => {
           <div className='container_card'>
             <div className='container_img'>
               <figure>
-                <img src={proximamente} alt='projects' />
+                <img src='https://i.ibb.co/16n72vV/formu.png' alt='projects' />
               </figure>
             </div>
             <div className='container_info'>
@@ -85,7 +81,7 @@ const Portfolio = () => {
           <div className='container_card'>
             <div className='container_img'>
               <figure>
-                <img src={proximamente} alt='projects' />
+                <img src='https://i.ibb.co/4mT1CP8/calcu.png' alt='projects' />
               </figure>
             </div>
             <div className='container_info'>
@@ -99,7 +95,7 @@ const Portfolio = () => {
           <div className='container_card'>
             <div className='container_img'>
               <figure>
-                <img src={proximamente} alt='projects' />
+                <img src='https://i.ibb.co/7RvQXyx/regis.png' alt='projects' />
               </figure>
             </div>
             <div className='container_info'>
@@ -110,7 +106,7 @@ const Portfolio = () => {
           <div className='container_card'>
             <div className='container_img'>
               <figure>
-                <img src={proximamente} alt='projects' />
+                <img src='https://i.ibb.co/0rSVXdv/proximamente.jpg' alt='projects' />
               </figure>
             </div>
             <div className='container_info'>
@@ -120,7 +116,7 @@ const Portfolio = () => {
           <div className='container_card'>
             <div className='container_img'>
               <figure>
-                <img src={proximamente} alt='projects' />
+                <img src='https://i.ibb.co/0rSVXdv/proximamente.jpg' alt='projects' />
               </figure>
             </div>
             <div className='container_info'>
