@@ -1,33 +1,15 @@
-.section_portfolio{
+.mt-5{
     background-color: #191919;
-    margin-top: 50px;
 }
+
 .section_portfolio-title{
     padding: 20px;
 }
-
-.portfolio_container-card1{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-size: contain;
-}
-.container_card{
-    margin: 20px;
-   
-}
-
 .container_img figure img{
-    width: 380px;
-    height: 430px;
+    width: 100%;
     border-radius: 10px;
 }
-.container_info{
-    position: relative;
-    top: -80px;
-    right: -20px;
-}
+
 .project_text-h4{
     font-weight: bold;
     margin-bottom: 40px;
@@ -54,3 +36,10 @@
     color: white;
     opacity: 9deg;
 }
+@media (max-width: 400px) {
+    .mt-5{
+        width: 110%;
+        background-color: #191919;
+    }
+    
+    }

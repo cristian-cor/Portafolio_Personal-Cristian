@@ -2,6 +2,9 @@
 font-weight: bold;
 font-size: 45px;
 }
+.text-center{
+    background-color: black;
+}
 .service-subtitle{
 color: #f0f0f0;
 font-size: 20px;
@@ -47,12 +50,14 @@ justify-content: center;
 background-size: cover;
 height: 940px;
 }
-.section_container-card1 .coll-3, .section_container-card2 .coll-3{
+.section_container-card1 .coll-3{
 width: 460px;
 height: 900px;
-margin: 10px;
 background-color: #191919;
 border-radius: 17px;
+}
+.section_container-card1  .coll-3{
+    margin: 30px;
 }
 .img_platzi{
     margin-top: 10px;
@@ -101,8 +106,22 @@ justify-content: center;
     .section_container-card1 .coll-3 {
     margin: 20px;
     padding: 20px;
-    width: 450px;
-    
+    width: 400px;
+    margin: 0 auto;
+   
+    }
+    .section_container-card1,.section_container-card2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        }
+    .section_service-box{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     
     }

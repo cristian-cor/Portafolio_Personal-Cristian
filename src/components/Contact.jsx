@@ -3,6 +3,8 @@ import React from 'react'
 //stiles
 import '../style/Contact.css'
 const Contact = () => {
+
+
     return (
         <div className='section_contact'>
             <div className='section_contact-title text-center'>
@@ -23,15 +25,6 @@ const Contact = () => {
                         <i className="fa-brands github fa-github"></i>
                     </a>
                 </div>
-            <div className='section_form'>
-                <form className='form' >
-                    <input id='in' placeholder='Your Name *' type='text' />
-                    <input placeholder='Your Email *' type='email' />
-                    <input placeholder='Write a Subject * ' type='text' />
-                    <input className='tarea' placeholder='Write Your message *' type='text' />
-                    <button type='buttom'>SUBMIT</button>
-                </form>
-            </div>
         </div>
     )
 }

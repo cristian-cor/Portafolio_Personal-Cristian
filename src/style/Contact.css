@@ -29,8 +29,9 @@ color: white ;
     background-color: #191919;
     border: none;
     border-radius: 12px;
+    color: white;
 }
-    .tarea{
+.tarea{
     height: 100px;
 }
 .form input:hover{

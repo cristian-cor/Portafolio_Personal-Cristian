@@ -1,131 +1,135 @@
 import React from 'react'
-//images
-
-
-//styles
+import Carousel from 'react-elastic-carousel'
+import Item from './Item'
 import '../style/Portfolio.css'
+const breakPoints = [
+  { width: 1, itemsToShow: 1 },
+  { width: 550, itemsToShow: 2 },
+];
+
 const Portfolio = () => {
+
   return (
-    <section className='section_portfolio'>
-      <div className='section_portfolio-title'>
-        <h2 className='text-center service-title mt-5'>
-        Mis proyectos
-        </h2>
-        <p className='text-center service-subtitle m-3'>
-         Aqui podras ver algunos de mis proyectos realizados a lo largo de mi aprendizaje
-        </p>
-      </div>
-      <section className='portfolio_container-card1'>
-      {/* Rick-and-morty */}
-          <div className='container_card'>
+    <Carousel className='mt-5' itemsToShow={1} breakPoints={breakPoints}>
+      <Item className='item'>
+      <div className='container_card mt-5'>
             <div className='container_img'>
               <figure>
-                <img src='https://i.ibb.co/kDQCHXC/rick-And-Morty.jpg' alt='projects' />
+              <img src='https://i.ibb.co/t4p6Kj3/rick-And-Morty.png' alt='Rick and Morty' />
               </figure>
             </div>
             <div className='container_info'>
               <a href="https://github.com/cristian-cor/Rick-and-morty" target="blank" className="project__btn">Git-Hub</a>
-              <a href="https://cristian-cor.github.io/Rick-and-morty/" target="blank" className="project__btn">Git-Hub Pages</a>
+              <a href="https://cristian-cor.github.io/Rick-and-morty/" target="blank" className="project__btn">Pagina</a>
             </div>
           </div>
-          {/* clongGoogle */}
-          <div className='container_card'>
+      </Item>
+      <Item>
+      <div className='container_card'>
             <div className='container_img'>
               <figure>
-                <img src='https://i.ibb.co/Wp9WVLZ/clon-Google.jpg' alt='projects' />
+                <img src='https://i.ibb.co/jW14SsN/Google-Clone.png' alt='Google Clone' />
               </figure>
             </div>
             <div className='container_info'>
               <a href="https://github.com/cristian-cor/clongGoogle.github.io" target="blank" className="project__btn">Git-Hub</a>
-              <a href="https://startling-palmier-e41cee.netlify.app/" target="blank" className="project__btn">Git-Hub Pages</a>
+              <a href="https://startling-palmier-e41cee.netlify.app/" target="blank" className="project__btn">Pagina</a>
                           </div>
           </div>
-          {/* APP-COLOR */}
-          <div className='container_card'>
+      </Item>
+      <Item>
+      <div className='container_card'>
             <div className='container_img'>
               <figure>
-                <img src='https://i.ibb.co/jrtbWqJ/color-Picekt.jpg' alt='projects' />
+                <img src='https://i.ibb.co/j4HfHh5/color-app.png' alt='color app' />
               </figure>
             </div>
             <div className='container_info'>
               <a href="https://github.com/cristian-cor/APP-COLOR" target="blank" className="project__btn">Git-Hub</a>
-              <a href="https://cristian-cor.github.io/APP-COLOR/" target="blank" className="project__btn">Git-Hub Pages</a>
+              <a href="https://cristian-cor.github.io/APP-COLOR/" target="blank" className="project__btn">Pagina</a>
             </div>
           </div>
-          {/* to-do-app */}
-          <div className='container_card'>
+      </Item>
+      <Item>
+      <div className='container_card'>
             <div className='container_img'>
               <figure>
-                <img src='https://i.ibb.co/0nJP2dj/todoApp.jpg' alt='projects' />
+                <img src='https://i.ibb.co/b35psRW/todoapp.png' alt='todo app' />
               </figure>
             </div>
             <div className='container_info'>
               <a href="https://github.com/cristian-cor/to-do-app" target="blank" className="project__btn">Git-Hub</a>
-              <a href="https://cristian-cor.github.io/to-do-app/" target="blank" className="project__btn">Git-Hub Pages</a>
+              <a href="https://cristian-cor.github.io/to-do-app/" target="blank" className="project__btn">Pagina</a>
             </div>
           </div>
-          {/* Formulario */}
-          <div className='container_card'>
+      </Item>
+      <Item>
+      <div className='container_card'>
             <div className='container_img'>
               <figure>
-                <img src='https://i.ibb.co/16n72vV/formu.png' alt='projects' />
+                <img src='https://i.ibb.co/1XDBDYm/Formulario.png' alt='Formulario' />
               </figure>
             </div>
             <div className='container_info'>
               <a href="https://github.com/cristian-cor/Formulario" target="blank" className="project__btn">Git-Hub</a>
-              <a href="https://cristian-cor.github.io/Formulario/" target="blank" className="project__btn">Git-Hub Pages</a>
+              <a href="https://cristian-cor.github.io/Formulario/" target="blank" className="project__btn">Pagina</a>
             </div>
           </div>
-          {/* calculadora-de-figuras-geometricas */}
-          <div className='container_card'>
+      </Item>
+      <Item>
+      <div className='container_card'>
             <div className='container_img'>
               <figure>
-                <img src='https://i.ibb.co/4mT1CP8/calcu.png' alt='projects' />
+                <img src='https://i.ibb.co/FWx2X9K/calculadora.png' alt='calculadora' />
               </figure>
             </div>
             <div className='container_info'>
               <a href="/" target="blank" className="project__btn">Git-Hub</a>
-              <a href="https://cristian-cor.github.io/calculadora-de-figuras-geometricas/" target="blank" className="project__btn">Git-Hub Pages</a>
+              <a href="https://cristian-cor.github.io/calculadora-de-figuras-geometricas/" target="blank" className="project__btn">Pagina</a>
             </div>
           </div>
-      </section>
-      <section className='portfolio_container-card1'>
-      {/* register-user */}
-          <div className='container_card'>
+      </Item>
+      <Item>
+      <div className='container_card'>
             <div className='container_img'>
               <figure>
-                <img src='https://i.ibb.co/7RvQXyx/regis.png' alt='projects' />
+                <img src='https://i.ibb.co/Rj69nSy/registro.png' alt='registro' />
               </figure>
             </div>
             <div className='container_info'>
               <a href="https://github.com/cristian-cor/register-user-CSS-HTML" target="blank" className="project__btn">Git-Hub</a>
-              <a href="https://cristian-cor.github.io/register-user-CSS-HTML/" target="blank" className="project__btn">Git-Hub Pages</a>
+              <a href="https://cristian-cor.github.io/register-user-CSS-HTML/" target="blank" className="project__btn">Pagina</a>
             </div>
           </div>
-          <div className='container_card'>
+      </Item>
+      <Item>
+      <div className='container_card'>
             <div className='container_img'>
               <figure>
-                <img src='https://i.ibb.co/0rSVXdv/proximamente.jpg' alt='projects' />
+                <img src='https://i.ibb.co/gzxPLzW/bici.png' alt='bici' />
               </figure>
             </div>
             <div className='container_info'>
-              <a href="https://github.com/cristian-cor" target="blank" className="project__btn">Git-Hub</a>
+              <a href="https://github.com/cristian-cor/pagina-de-bicicleta" target="blank" className="project__btn">Git-Hub</a>
+              <a href="https://cristian-cor.github.io/pagina-de-bicicleta/" target="blank" className="project__btn">Pagina</a>
             </div>
           </div>
-          <div className='container_card'>
+      </Item>
+      <Item>
+      <div className='container_card'>
             <div className='container_img'>
               <figure>
-                <img src='https://i.ibb.co/0rSVXdv/proximamente.jpg' alt='projects' />
+                <img src='https://i.ibb.co/Wygj6Nk/maus.png' alt='mouse' />
               </figure>
             </div>
             <div className='container_info'>
-              <a href="https://github.com/cristian-cor" target="blank" className="project__btn">Git-Hub</a>
+              <a href="https://github.com/cristian-cor/pagina-estatica" target="blank" className="project__btn">Git-Hub</a>
             </div>
           </div>
-      </section>
-    </section>
-
+      </Item>
+    </Carousel>
   )
+
 }
 
 export default Portfolio

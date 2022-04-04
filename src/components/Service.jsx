@@ -7,8 +7,8 @@ const Service = () => {
         <>
             <section>
                 <div className='section_service-title'>
-                    <h2 className='text-center service-title mt-5'>
-                        Formación academia
+                    <h2 className='mb-5 text-center service-title mt-5'>
+                        Formación academica
                     </h2>
                 </div>
                 <section className='section_container-card1'>
@@ -40,8 +40,8 @@ const Service = () => {
                             </div>
                         </div>
                     </div>
-
-                    <div className="coll-3">
+<br/>
+                    <div className="coll-3 ">
                         <div className="section__service-box ">
                             <div className="icon">
                                 <img
@@ -67,6 +67,7 @@ const Service = () => {
                             </div>
                         </div>
                     </div>
+<br/>
                     <div className="coll-3">
                         <div className="section__service-box ">
                             <div className="icon">
